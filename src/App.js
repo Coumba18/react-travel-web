@@ -1,6 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
-import { Counter } from './features/counter/Counter';
 import './App.css';
 import Header from './components/Header';
 import Service from './components/Service';
@@ -15,7 +13,7 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="container-fluid align-itemns-center text-center">
+    <div className="container-fluid">
       <Navbar />
       <Header />
       <Service />

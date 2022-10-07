@@ -9,9 +9,9 @@ export class Destination extends Component {
         <div className="section-trois text-center align-items-center container py-5">
         <h5 className="title easyFast">Top Selling</h5>
             <h1>Top Destinations</h1>
-            <div className="row align-items-center  pt-4">
+            <div className="row align-items-center pt-4">
                 <div className="col-md-4 col-sm-12 col-xs-12">
-                  <div className="card border-0 lestrois">
+                  <div className="card ms-5 border-0 lestrois">
                     <img src={Rectangle14}  alt="" className="card-img-top"/>
                     <div className="card-body rect d-flex">
                       <div className='subtitle'>
@@ -25,7 +25,7 @@ export class Destination extends Component {
                 </div>
                 </div>
                 <div className="col-md-4 col-sm-12 col-xs-12">
-                  <div className="card border-0 lestrois">
+                  <div className="card ms-5 border-0 lestrois">
                     <img src={Rectangle141}  alt="" className="card-img-top"/>
                     <div className="card-body rect d-flex">
                       <div className='subtitle'>
@@ -37,7 +37,7 @@ export class Destination extends Component {
                 </div>
               </div>
               <div className="col-md-4 col-sm-12 col-xs-12">
-                <div className="card border-0 lestrois">
+                <div className="card ms-5 border-0 lestrois">
                     <img src={Rectangle142}  alt="" className="card-img-top"/>
                     {/* <img src="img/Decore (2).png" alt=""> */}
                     <div className="card-body rect d-flex">

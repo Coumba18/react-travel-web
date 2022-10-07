@@ -9,7 +9,7 @@ export class Logo extends Component {
   render() {
     return (
         <div className="section6 container align-items-center py-5">
-        <div className="row container align-items-center">
+        <div className="row container align-items-center text-center">
           <div className="col-md-3 col-sm-12 col-xs-12">
               <img src={image27} alt="" className="line-img"/>
           </div>
