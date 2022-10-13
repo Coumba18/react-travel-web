@@ -5,7 +5,7 @@ import Decore from '../images/Decore.png';
 export class Navbar extends Component {
   render() {
     return (
-        <div className="header container-fluid align-items-center">
+        <div className="header  align-items-center">
         <nav className="navbar navbar-expand-lg navbar-light container">
           <div className="container-fluid">
             <a className="navbar-brand" href="#"><img src={Jadoo} alt="img"/></a>

@@ -13,9 +13,10 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="container-fluid">
+    <div className="app">
       <Navbar />
       <Header />
+      <div className='container-fluid'>
       <Service />
       <Destination />
       <Bookatrip />
@@ -23,6 +24,8 @@ function App() {
       <Logo />
       <Subscribe />
       <Footer />
+      </div>
+      
     </div>
   );
 }

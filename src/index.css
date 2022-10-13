@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+.app{
+  overflow: hidden;
+}
 .header{
   position: inherit;
   /* top: 0;
@@ -24,7 +27,7 @@ z-index: 10;
   /* text-align: right; */
 }
 #navbarNavDropdown ul a{
-  margin-right: 50px;
+  margin: 20px;
   color: black;
   font-size: 15px;
   font-family: 'Open Sans';
@@ -49,7 +52,7 @@ z-index: 10;
   font-family: 'Volkhov';
   font-style: normal;
   font-weight: 700;
-  font-size: 80px;
+  font-size: 50px;
 }
 .col-md-6 .para{
   font-size: 20px;
@@ -101,7 +104,7 @@ z-index: 10;
   font-family: 'Volkhov';
   font-style: normal;
   font-weight: 700;
-  font-size: 58px;
+  font-size: 50px;
 }
 .easyFast{
   color: #FFA90F;
@@ -155,7 +158,7 @@ span .btn {
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
-  font-size: 50px;
+  /* font-size: 50px; */
   color: #5E6282;
 }
 .footer h5{
@@ -182,31 +185,52 @@ span .btn {
 .store{
   width: 50px;
 }
-.col-md-4 .lestrois{
+ /* .col-md-4 .lestrois{
   width: 20em;
-  /* height: 20em; */
+   height: 20em; 
   border-radius: 10px;
-}
-.col-md-4 .rect{
+} 
+ .col-md-4 .rect{
   position: absolute;
   top: 230px;
   left: 50px;
   width: 220px;
-  background-color: #FFFFFF;
-  /* bottom: 0; */
-}
+  background-color: #FFFFFF; 
+}  */
 .col-md-6 .testim{
   color: #84829A;
 }
-.col-md-4 .price{
+/* .card-body .price{
   color: #6246E5;
+}
+
+ .card-group .card{
+  position: relative;
+} 
+ .card-group .card img{
+  position: relative;
+} 
+.card-group .card .card-body{
+  position: absolute;
+  bottom: 135px;
+  left: 70px;
+  height:130px ;
+  width: 80%;
+  background: #ffffff;
 }
 .subtitle .card-title{
   font-size: 15px;
 }
 .subtitle .card-text{
   font-size: 15px;
+} */
+.card-img-overlay .meuve{
+  color: #6246E5;
 }
+.card-img-overlay{
+  height: 120px;
+}
+ 
 .section-deux .fly img{
   width: 20%;
 }
